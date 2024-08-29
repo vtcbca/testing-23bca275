@@ -1,0 +1,21 @@
+/* [16] WAP to check number is Even or Odd
+ID : 23BCA275 */
+
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+	int n;
+	clrscr();
+	cout<<"Enter a number : ";
+	cin>>n;
+	if(n%2==0)
+	{
+		cout<<n<<" is Even number";
+	}
+	else
+	{
+		cout<<n<<" is Odd number";
+	}
+	getch();
+}
